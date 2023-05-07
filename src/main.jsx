@@ -1,6 +1,6 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
-import { Form, useLoaderData } from "react-router-dom";
+import ReactDOM from "react-dom";
+import {  useRouteLoaderData  } from "react-router-dom";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "./components/Home/Home";
@@ -14,16 +14,16 @@ const router = createBrowserRouter([
     element: <Home></Home>,
   },
   {
-    path: "orders",
+    path: "/orders",
     element: <Orders></Orders>,
-    loader: () => fetch("products.json"),
+    loader:() => fetch('products.json')
   },
   {
-    path: "inventory",
+    path: "/inventory",
     element: <Inventory></Inventory>,
   },
   {
-    path: "login",
+    path: "/login",
     element: <Login></Login>,
   },
 ]);

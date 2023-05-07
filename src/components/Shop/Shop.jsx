@@ -4,6 +4,7 @@ import { AddToDb,getshoppingCart } from '../../Utilities/fakeDb';
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart';
 
+
 const Shop = () => {
     const [products,setProducts]= useState([]);
     const [cart,setCart] = useState([]);
@@ -33,7 +34,7 @@ const handleAddTocart = (product) =>{
 //cart.push(product)
 const newCart = [...cart,product];
 setCart(newCart);
-AddToDb(Product.id)
+AddToDb(Product.id);
 }
 return (
     <div className="shop-container">
@@ -44,7 +45,7 @@ handleAddTocart ={handleAddTocart}>
 </Product>)}
     </div>
     <div className="cart-container">
-     <Cart cart={cart}></Cart>
+    <Cart cart={cart}></Cart>
     </div>
 </div>
 );
