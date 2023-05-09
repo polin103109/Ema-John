@@ -6,7 +6,7 @@ const Orders = () =>{
     return (
     <div className="shop-container">
         <div className="products-container">
-            <h3>Orders page:{products.length}</h3>
+            <h4>Orders page:{products.length}</h4>
         </div>
         <div className="cart-container">
             <Cart cart={[]}></Cart>

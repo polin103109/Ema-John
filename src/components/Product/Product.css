@@ -1,14 +1,15 @@
 .product{
     width: 200px;
-    height: 500px;
+    height: 400px;
     border: 1px solid red;
     border-radius: 8px;
     position:relative;
+    
 }
 img{
-    width:200px;
+    width:190px;
     height:200px;
-    /* margin: 4px; */
+    margin: 4px; 
     border-radius: 8px;
    
 }
@@ -16,7 +17,7 @@ img{
     font-family: 'Lato';
     font-style: normal;
    font-weight: 400;
-   font-size: 21px;
+   font-size: 15px;
    line-height: 25px;
    letter-spacing: 0.0015em;
    color: black;
@@ -29,10 +30,7 @@ img{
 }
 
 
-.product-info{
-    margin-left: 14px;
 
-}
 .product-info p{
     margin-top: 5px;
 }
@@ -42,7 +40,8 @@ img{
     border-radius: 0px 0px 8px 8px;
     width: 100%;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
+    
 }
 .btn-cart:hover{
     background-color: orange;

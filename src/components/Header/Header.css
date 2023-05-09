@@ -1,11 +1,17 @@
 .header{
-    height: 80px;
+    height: 60px;
     background-color: #1C2B35;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-left: 100px;
     padding-right: 100px;
+    position: fixed;
+    z-index: 9999;
+    top:0;
+    left:0;
+    right:0;
+  
     
 }
 nav a{
@@ -16,4 +22,8 @@ nav a{
 }
 nav a:hover{
     color: orange!important;
+}
+img{
+    height: 50%;
+    width: 100%;
 }
