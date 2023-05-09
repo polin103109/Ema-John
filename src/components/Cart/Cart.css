@@ -1,6 +1,7 @@
 .cart{
     background-color:#ff99009c;;
-    padding: 25px;
+    padding: 20px;
     position: sticky;
-    top: 40px;
+    top: 70px;
+    margin-right: 10px;
 }
