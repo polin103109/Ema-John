@@ -9,7 +9,7 @@ return (
    <nav className="header">
      <img src={logo} alt=""/> 
     <div className="navbar">
-        <Link to="/shop">Shop</Link>
+        <Link to="shop">Shop</Link>
         <Link to="/orders">Orders</Link>
         <Link to="/inventory">Inventory</Link>
         <Link to="/login">Login</Link>
